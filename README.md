@@ -9,6 +9,8 @@ From Matlab type:
 steve_table
 ```
 
-to generate a 3D map based on Table 2 of page 45 of Kshitij thesis.
+to generate a 3D map with phantom of STEVE morphology.
 
-Hold the <kbd>Ctrl</kbd> key while click and drag with mouse to tilt the map.
+Hold the <kbd>Ctrl</kbd> key while click and drag with mouse to tilt 3D map.
+
+![STEVE table](cameras.png)
