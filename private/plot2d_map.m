@@ -14,8 +14,8 @@ geobasemap(g, "streets-light")
 geoplot(g, [c1.lat, c2.lat], [c1.lon, c2.lon], ...
     LineStyle="None", LineWidth=3, Marker="o", Color="magenta", MarkerSize=10)
 
-geoplot(g, s1.lat, s1.lon, DisplayName="feature1", Color="cyan", LineWidth=3)
-geoplot(g, s2.lat, s2.lon, DisplayName="feature2", Color="red", LineWidth=3)
+geoplot(g, s1.lat, s1.lon, DisplayName="feature1", Color="cyan", LineWidth=10)
+geoplot(g, s2.lat, s2.lon, DisplayName="feature2", Color="red", LineWidth=10)
 
 minlat = 0.9*(min(c1.lat, c2.lat));
 maxlat = 1.1*(max(c1.lat, c2.lat));

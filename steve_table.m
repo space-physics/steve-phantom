@@ -6,11 +6,7 @@ end
 
 assert(~isMATLABReleaseOlderThan("R2022b"))
 
-cam1 = struct(lat=48.035108, lon=-97.368604, name="Ludvina");
-% Ludvina location metadata, believed accurate
-
-cam2 = struct(lat=51.0086, lon=-113.3994, name="Strathmore");
-% imprecise--only the nearest town "Strathmore, AB" is known.
+[cam1, cam2] = load_cameras("params.json");
 
 [s1, s2] = table_features();
 
