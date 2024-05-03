@@ -7,6 +7,10 @@ From Matlab type:
 
 ```matlab
 steve_table
+
+% or
+
+steve_phantom
 ```
 
 to generate a 3D map with phantom of STEVE morphology.
